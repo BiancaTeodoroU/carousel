@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquerys.css">
+    <title>Carousel</title>
+</head>
+<body>
+    <div class="body">
+        <div class="container p-0 overflow-hidden">
+            <section class="carousel justify-content-md-center">
+                <div>
+                    <h2 class="carousel--title">Carousel</h2>
+                    <div class="carousel__container">
+                        <div class="arrow arrow-left">
+                            <button type="button" aria-label="próximo ao anterior" id="previous">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_2)">
+                                    <path d="M29.8419 37.0647L18.0006 24.908L30.1572 13.0667" stroke="white" stroke-width="4"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_103_2">
+                                    <rect width="48" height="48" fill="white" transform="translate(48.6826 49.3133) rotate(-179.247)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="arrow arrow-right">
+                            <button type="button" aria-label="o proximo" id="next">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_103_2)">
+                                    <path d="M20.1581 12.9353L31.9994 25.092L19.8427 36.9333" stroke="white" stroke-width="4"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_103_2">
+                                    <rect width="48" height="48" fill="white" transform="translate(1.31738 0.686707) rotate(0.752884)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>                    
+                            </button>
+                        </div>
+                        <div class="carousel__content">
+                            <div id="slider" class="carousel overflow-hidden">
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel__card ps-rl">
+                                    <div class="carousel__card--content">
+                                        <div class="carousel__card--image">
+                                            <img src="./images/LayoutGym.jpeg" alt="">
+                                        </div>
+                                        <div class="carousel__container--description">
+                                            <span class="name">Tela de login em pug</span>
+                                            <span class="developmet">Tela de login feita em pug, design feito por mim no figma.</span>
+                                            <span class="difficulty">Nivel de dificuldade</span>
+                                        </div>
+                                        <div class="difficult-level">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 245">
+                                                <path d="m56,237 74-228 74,228L10,96h240"/>
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 5.173l2.335 4.817 5.305.732-3.861 3.71.942 5.27-4.721-2.524v-12.005zm0-4.586l-3.668 7.568-8.332 1.151 6.064 5.828-1.48 8.279 7.416-3.967 7.416 3.966-1.48-8.279 6.064-5.827-8.332-1.15-3.668-7.569z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M15.668 8.626l8.332 1.159-6.065 5.874 1.48 8.341-7.416-3.997-7.416 3.997 1.481-8.341-6.064-5.874 8.331-1.159 3.668-7.626 3.669 7.626zm-6.67.925l-6.818.948 4.963 4.807-1.212 6.825 6.068-3.271 6.069 3.271-1.212-6.826 4.964-4.806-6.819-.948-3.002-6.241-3.001 6.241z"/></svg>
+                                        </div>
+                                        <div class="carousel__button">
+                                            <button type="button" class="github ps-rl">Github</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

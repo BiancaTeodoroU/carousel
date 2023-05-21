@@ -1,0 +1,100 @@
+
+/* mediaquerys */
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .justify-content-md-center {
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media (max-width: 3000px) {
+    .carousel__container {
+        max-width: 870px;
+        margin: 0 650px;
+    }
+}
+
+@media (max-width: 3000px) {
+    .carousel__container {
+        max-width: 870px;
+        margin: 0 650px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .carousel__container {
+        max-width: 866px;
+        margin: 0 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carousel__container {
+        max-width: 570px;
+        margin: 0 140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .carousel__container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel__container {
+        max-width: 262px;
+        margin: 0 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    section .carousel__container {
+        margin: 0 auto;
+    }
+
+    .carousel__card {
+        margin: 10px 0;
+        width: 230px;
+    }
+    
+    .arrow-left {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .carousel {
+        flex-direction: column;
+    }
+}
